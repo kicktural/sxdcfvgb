@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 174, 0);
+}
+
+.container{
+    background-color: rgb(3, 75, 170);
+}
+
+
+.warapper{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin: 20px auto;
+}
+
+
+.card{
+    position: relative;
+    color: #ffffff;
+    .card-image {
+        width: 500px;
+    }
+    .card-name{
+        position: absolute;
+        top: 58%;
+        left: 20px;
+        font-size: 30px;
+    }
+    .card-number{
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        font-size: 30px;
+        letter-spacing: 15px;
+    }
+}
+
+
+
+.card-form{
+    input{
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+
